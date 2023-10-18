@@ -19,14 +19,14 @@
 }
 
 .content__description>p{
-  color: gray;
+  color: rgb(205, 200, 200);
   margin-top: 10px;
 
 
 }
 
 .content__description{
-  max-width: 400px;
+  max-width: 450px;
 }
 
 .container__arrow-back{
