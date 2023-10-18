@@ -2,12 +2,12 @@
   <div class="container__small-card-content">
     <div class="small-card__image">
       <img
-        src="https://www.hindustantimes.com/ht-img/img/2023/08/26/1600x900/ezgif-2-b5cab074fc_1693022347742_1693022385675.jpg"
+        src="{{imageCover}}"
         alt="" srcset="">
     </div>
 
     <div class="small-card__title">
-      <h1><a href="">NEW SEASON RICK MORY </a></h1>
+      <h1><a [routerLink]="['content',Id]">{{cardTitle}} </a></h1>
     </div>
   </div>
 
